@@ -7,8 +7,9 @@ namespace ORFU21_Kurs01_HangaDelar
         static void Main(string[] args)
         {
             bool isRunning = true;
-            Random rndNum = new Random();//Skapar en "random" variabel som kan användas senare
-            int totalLives = rndNum.Next(2, 5); //Random siffra mellan 2 och 5.
+            //Random rndNum = new Random();//Skapar en "random" variabel som kan användas senare
+            //int totalLives = rndNum.Next(2, 5); //Random siffra mellan 2 och 5.
+            int totalLives = 6;
             int goodAttempts = 0;
 
             ConsoleKeyInfo guessInput;
